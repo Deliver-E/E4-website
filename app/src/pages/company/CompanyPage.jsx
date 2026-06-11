@@ -56,7 +56,12 @@ function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full bg-white border-b border-[rgba(0,0,0,.06)]">
       <div className="max-w-6xl mx-auto h-20 px-6 flex items-center justify-between gap-5">
-        <a href="https://delivere.app" className="flex items-center shrink-0">
+        <a
+          href="https://delivere.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center shrink-0"
+        >
           <img
             src="/deliver-e-logo-trim.png"
             alt="Deliver-E"
@@ -84,9 +89,24 @@ function Navbar() {
           </a>
           <a
             href="https://delivere.app"
+            target="_blank"
+            rel="noopener noreferrer"
             className="ml-1.5 inline-flex items-center gap-1.5 rounded-full bg-[#FF6B9D] px-[18px] py-[9px] text-[14px] font-extrabold text-white no-underline shadow-[0_8px_20px_rgba(255,107,157,.28)] hover:bg-[#FF5A8A] transition-colors"
           >
             Visit Deliver-E
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.6"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M7 17L17 7" />
+              <path d="M8 7h9v9" />
+            </svg>
           </a>
         </nav>
       </div>
@@ -142,9 +162,25 @@ export default function CompanyPage() {
               The registered technology company behind{' '}
               <a
                 href="https://delivere.app"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="font-bold text-[#1e6f57] underline decoration-[#9fd4be] underline-offset-4"
               >
                 Deliver-e
+                <svg
+                  width="13"
+                  height="13"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.6"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="inline-block ml-1 align-[-1px]"
+                >
+                  <path d="M7 17L17 7" />
+                  <path d="M8 7h9v9" />
+                </svg>
               </a>{' '}
               — the marketplace connecting customers, sellers, and drivers across
               Botswana.
@@ -352,6 +388,8 @@ export default function CompanyPage() {
 
               <a
                 href="https://delivere.app"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="no-underline block mt-[22px]"
               >
                 <div className="group flex items-center gap-2 flex-wrap rounded-3xl border border-[rgba(0,0,0,.06)] bg-[#faf9f8] py-3 pr-6 pl-3 transition-[border-color,box-shadow] duration-200 hover:border-[#d7efe3] hover:shadow-[0_14px_30px_rgba(22,18,15,.10)]">
