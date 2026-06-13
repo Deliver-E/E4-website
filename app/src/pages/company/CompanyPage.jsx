@@ -166,7 +166,7 @@ export default function CompanyPage() {
                 rel="noopener noreferrer"
                 className="font-bold text-[#1e6f57] underline decoration-[#9fd4be] underline-offset-4"
               >
-                Deliver-e
+                Deliver-E
                 <svg
                   width="13"
                   height="13"
@@ -244,7 +244,7 @@ export default function CompanyPage() {
               <p className="mt-4 max-w-3xl text-[17px] leading-[1.6] text-[#2b2522]">
                 E 4 Holdings Proprietary Limited is a private company incorporated in
                 the Republic of Botswana under the Companies Act CAP:42:01. It owns and
-                operates the Deliver-e platform at delivere.app.
+                operates the Deliver-E platform at delivere.app.
               </p>
             </section>
 
@@ -397,7 +397,7 @@ export default function CompanyPage() {
                   <div className="flex items-center justify-center shrink-0 w-[132px] h-24 rounded-[18px] bg-white border border-[rgba(0,0,0,.05)]">
                     <img
                       src="/deliver-e-logo-trim.png"
-                      alt="Deliver-e"
+                      alt="Deliver-E"
                       className="w-[100px] h-auto object-contain"
                     />
                   </div>
@@ -406,7 +406,7 @@ export default function CompanyPage() {
                   <div className="flex-1 min-w-[220px]">
                     <div className="flex items-center gap-2.5 flex-wrap">
                       <span className="text-[20px] font-extrabold text-[#121212]">
-                        Deliver-e
+                        Deliver-E
                       </span>
                       <span className="text-[12px] font-extrabold uppercase tracking-[0.06em] text-[#1e6f57] bg-[#ecfdf3] border border-[#d7efe3] rounded-full px-[11px] py-[3px]">
                         Live
